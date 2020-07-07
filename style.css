@@ -1,0 +1,97 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: arial;
+ 
+}
+.container nav{
+    padding:20px 0px;
+}
+.logo{
+    width:150px;
+}
+.navbar-nav li{
+    padding:0px 14px;
+}
+.navbar-nav li a{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Carousel Section */
+.buy-now-btn{
+    color:whitesmoke;
+    background:rgb(24, 24, 24);
+    font-weight: bold;
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-top:20px;
+    
+}
+.h1-bold{
+    font-weight: bold;
+}
+.para-description{
+    color:gray;
+    width: 74%;
+
+}
+
+.carousel-indicators li{
+    background-color:gray;
+    cursor: pointer;
+}
+.carousel-indicators li.active{
+    background-image:linear-gradient(to left,#FFC120,rgba(255, 150, 29, 0.938));
+    width: 30px;
+}
+.carousel-indicators li {
+    width: 17px;
+    height: 10px;
+    transition:all .3s;
+    border-radius: 5px;
+}
+.carousel-indicators{
+    bottom:-10%;
+}
+.card-container{
+    margin-top:4rem;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.orange-color{
+    color:#FF9D00;
+}
+.product-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.headin-one::after{
+    content:"";
+    height:8px;
+    width:140px;
+    background-image:linear-gradient(to left,orange,tomato);
+    display: block;
+    margin:10px auto;
+    border-radius: 5px;
+}
+.box{
+    box-shadow: 0px 5px 10px rgb(114, 114, 114);
+    width: 63%;
+    padding: 32px;
+    cursor: pointer;
+}
+.box img{
+    width:67%;
+}
+.box.box2,.box.box3 {
+    margin-bottom: 33px;
+}
+.box1{
+    margin-left:60px;
+}
+
